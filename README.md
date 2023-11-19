@@ -1,7 +1,7 @@
 # To-do-List-With-API
 To-do List With API Spring Boot + Angular + MySql
 
-To run this application, plese follow the steps below
+To run this application, please follow the steps below
 
 1. First install docker for windows here https://docs.docker.com/desktop/install/windows-install/
 2. Go to To-do-List-With-API project root directory
