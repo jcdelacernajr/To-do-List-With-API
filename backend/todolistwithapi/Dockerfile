@@ -26,7 +26,7 @@ RUN mv $JAR_PATH/todolistwithapi-0.0.1-SNAPSHOT.jar /todolistwithapi.jar
 # package stage
 FROM openjdk:17-jdk-alpine
 WORKDIR /
-# copy and set the version on the built jar and nothing else
+# copy the built jar and nothing else
 COPY --from=build /todolistwithapi.jar /
 
 ENV VERSION=$VERSION
